@@ -1,7 +1,7 @@
 # Multi-Loss Weighting with Coefficient of Variations
 This is the repository for our WACV 2021 work **Multi-Loss Weighting with Coefficient of Variations**. \
-[arXiv](https://arxiv.org/abs/2009.01717) \
-[WACV]()
+[WACV](https://openaccess.thecvf.com/content/WACV2021/papers/Groenendijk_Multi-Loss_Weighting_With_Coefficient_of_Variations_WACV_2021_paper.pdf) \
+[arXiv](https://arxiv.org/abs/2009.01717)
 
 This repository provides code for trying out CoV-Weighting yourself on depth datasets (KITTI and CityScapes). Feel free to use or change any method in [methods](methods/) and apply them to your own task or dataset.
 
@@ -61,10 +61,11 @@ Besides these works, evaluation and data loading code from [MonoDepth-V2](https:
 ## Citation
 If this work was useful for your research, please consider citing:
 ```
-@article{groenendijk2020multi,
+@inproceedings{groenendijk2020multi,
   title={Multi-Loss Weighting with Coefficient of Variations},
   author={Groenendijk, Rick and Karaoglu, Sezer and Gevers, Theo and Mensink, Thomas},
-  journal={arXiv preprint arXiv:2009.01717},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={1469--1478},
   year={2020}
 }
 ```
